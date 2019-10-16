@@ -99,18 +99,3 @@ class Rand_Augment():
         return image
 
 
-# this  is  for  call the whole fun
-img_augment = Rand_Augment()
-img_origal = Image.open(r'0a38b552372d.png')
-img_final = img_augment(img_origal)
-plt.imshow(img_final)
-plt.show()
-print('how to  call')
-
-# this  is for  a  single  fun  you  want to test
-img_augment = Rand_Augment()
-img_origal = Image.open(r'0a38b552372d.png')
-img_final = img_augment.test_single_operation(img_origal, 'shearX')
-plt.imshow(img_final)
-plt.show()
-print('how  to test')
