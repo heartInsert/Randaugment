@@ -34,7 +34,7 @@ class Rand_Augment():
             "sharpness": np.linspace(0.0, 0.9, 10),
             "brightness": np.linspace(0.0, 0.3, 10),
             "autocontrast": [0] * 10,
-            "equalize": [0] * 10,
+            "equalize": [0] * 10,           
             "invert": [0] * 10
         }
         self.func = {
