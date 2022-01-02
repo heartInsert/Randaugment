@@ -8,7 +8,7 @@ I  must  say  a  very  important  point here , there is  no  need  to   set  the
 
 
 
-# 1： if you  want to  just  call  this  class ,write  like above , this  is  for  call the whole fun
+# 1： if you  want to  just  call  this  class ,write  like above , this  is  for  call the whole function
 
 
 
@@ -19,7 +19,7 @@ plt.imshow(img_final)
 plt.show()  
 print('how to  call')  
 
-# 2: if you  want  to test  a single fun,write  like  above 
+# 2: if you  want  to test  a single function,write  like  above 
 
 img_augment = Rand_Augment()  
 img_origal = Image.open(r'0a38b552372d.png')  
