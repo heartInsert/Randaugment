@@ -1,5 +1,5 @@
 # randaugment
-an personal  implementation  about randaugment (testing accuracy in  cifar-10) 
+an personal  implementation  about Randaugment (testing accuracy in  cifar-10) 
 
 This repo  a  partly  copy  from   https://github.com/DeepVoltaire/AutoAugment  ,it  a  implemetation  about  autoaugment  published by google .  I  just change some  code  about  operations  selected  way.
 
